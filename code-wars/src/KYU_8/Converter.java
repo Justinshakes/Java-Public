@@ -4,6 +4,8 @@ public class Converter {
     public static int binToDecimal(String inp) {
         int total = 0;
         for (int i = inp.length() - 1; i >= 0; i--) {
+            System.out.println("i: " + i);
+            System.out.println(total);
             if (inp.charAt(i) == '1') {
                 int exponent = inp.length() - 1 - i;
                 total += Math.pow(2, exponent);
