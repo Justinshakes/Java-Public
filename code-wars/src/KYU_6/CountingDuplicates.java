@@ -25,12 +25,12 @@ public class CountingDuplicates {
     }
 
     public static void main(String[] args) {
-        //System.out.println(duplicateCount("abcde")); // 0
+        System.out.println(duplicateCount("abcde")); // 0
         System.out.println(duplicateCount("aabbcde")); // 2
-        //System.out.println(duplicateCount("aabBcde")); // 2
-        //System.out.println(duplicateCount("indivisibility")); // 1
-        //System.out.println(duplicateCount("Indivisibilities")); // 2
-        //System.out.println(duplicateCount("aA11")); // 2
-        //System.out.println(duplicateCount("ABBA")); // 2
+        System.out.println(duplicateCount("aabBcde")); // 2
+        System.out.println(duplicateCount("indivisibility")); // 1
+        System.out.println(duplicateCount("Indivisibilities")); // 2
+        System.out.println(duplicateCount("aA11")); // 2
+        System.out.println(duplicateCount("ABBA")); // 2
     }
 }
