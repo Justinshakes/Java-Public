@@ -15,5 +15,12 @@ public class OddOrEven {
 
     public static void main(String[] args) {
         System.out.println(oddOrEven(new int[]{2, 5, 34, 6})); // Example usage
+
+        // Additional test cases
+        System.out.println(oddOrEven(new int[]{})); // Output: "even"
+        System.out.println(oddOrEven(new int[]{7})); // Output: "odd"
+        System.out.println(oddOrEven(new int[]{2, 4, 6, 8})); // Output: "even"
+        System.out.println(oddOrEven(new int[]{1, 3, 5, 7})); // Output: "odd"
+        System.out.println(oddOrEven(new int[]{2, 3, 4, 5})); // Output: "even"
     }
 }
