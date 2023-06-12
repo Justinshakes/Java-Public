@@ -30,7 +30,7 @@ public class CountingDuplicates {
         System.out.println(duplicateCount("aabBcde")); // 2
         System.out.println(duplicateCount("indivisibility")); // 1
         System.out.println(duplicateCount("Indivisibilities")); // 2
-        System.out.println(duplicateCount("aA11")); // 2
+        //System.out.println(duplicateCount("aA11")); // 2
         //System.out.println(duplicateCount("ABBA")); // 2
     }
 }
