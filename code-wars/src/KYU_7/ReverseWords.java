@@ -2,14 +2,19 @@ package KYU_7;
 
 public class ReverseWords {
     public static String reverseWords(final String original) {
-        String[] words = original.split(" ");  // Split the original string into an array of words
+        if (original.trim().isEmpty()) {
+            // If the original string consists of only spaces or is empty, return the original string as is
+            return original;
+        }
+
+        String[] words = original.split(" ");
         StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i < words.length; i++) {
             String reversedWord = new StringBuilder(words[i]).reverse().toString();
-            sb.append(reversedWord);  // Append each reversed word
+            sb.append(reversedWord);
             if (i < words.length - 1) {
-                sb.append(" ");  // Add a space between words
+                sb.append(" ");
             }
         }
 
