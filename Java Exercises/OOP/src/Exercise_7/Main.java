@@ -15,13 +15,8 @@ public class Main {
         bank.addAccount(account1);
         bank.addAccount(account2);
 
-        // Get the list of accounts from the bank
-        ArrayList<Account> accounts = bank.getAccounts();
 
-        // Print details of each account in the bank
-        for (Account account : accounts) {
-            account.printDetails();
-        }
+        bank.printAccounts();
 
         System.out.println("\nAfter depositing 1000 into Justin's account:");
         // Deposit 1000 into Justin's account using the bank's method
@@ -53,6 +48,11 @@ class Bank {
         accounts.add(account);
     }
 
+    // Remove an account from the bank's list of accounts
+    public void removeAccount(Account account) {
+        accounts.remove(account);
+    }
+
     // Deposit money into an account by calling the account's deposit method
     public void depositMoney(Account account, double amount) {
         account.deposit(amount);
@@ -61,6 +61,12 @@ class Bank {
     // Withdraw money from an account by calling the account's withdraw method
     public void withdrawMoney(Account account, double amount) {
         account.withdraw(amount);
+    }
+
+    public void printAccounts(){
+        for(Account A : accounts){
+            A.printDetails();
+        }
     }
 
     // Get the list of accounts in the bank
