@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java Exercises/Collection/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/Java Exercises/Collection/ArrayList/ArrayList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java Exercises/Collection/Collection.iml" filepath="$PROJECT_DIR$/Java Exercises/Collection/Collection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Java Exercises/Exercises.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java Exercises/OOP/OOP.iml" filepath="$PROJECT_DIR$/Java Exercises/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/Collection.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/OOP/OOP.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/OOP/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Public.iml" filepath="$PROJECT_DIR$/.idea/Public.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PublicTesterManNew/PublicTesterManNew.iml" filepath="$PROJECT_DIR$/PublicTesterManNew/PublicTesterManNew.iml" />
-      <module fileurl="file://$PROJECT_DIR$/code-wars/code-wars.iml" filepath="$PROJECT_DIR$/code-wars/code-wars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/code-wars/code-wars.iml" filepath="$PROJECT_DIR$/Java/code-wars/code-wars.iml" />
     </modules>
   </component>
 </project>
