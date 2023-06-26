@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/BasicPart2/BasicPart2.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/BasicPart2/BasicPart2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/Collection.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/OOP/OOP.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/OOP/OOP.iml" />
