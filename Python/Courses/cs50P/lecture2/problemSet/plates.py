@@ -28,21 +28,18 @@ def check_numbers_at_end(s):
 
     for i in range(2, len(s)):
         if s[i].isnumeric() and not found_number and s[i] == '0':
-            # Return False if the first number used is '0'
-            return False
+            return False  # Return False if the first number used is '0'
         if s[i].isalpha() and found_number:
-            # Return False if a letter appears after a number
-            return False
+            return False  # Return False if a letter appears after a number
         if s[i].isnumeric() and not found_number:
-            # Set found_number to True when the first number is encountered
-            found_number = True
+            found_number = True  # Set found_number to True when the first number is encountered
 
     return True
 
 
 def check_no_punctuation(s):
     # Check if the license plate contains only alphabetic letters or digits
-    return all(char.isalpha() or char.isdigit() for char in s)
+    return s.isalnum()
 
 
 main()

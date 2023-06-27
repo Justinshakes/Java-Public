@@ -2,6 +2,7 @@ fileName = input("File name: ")
 
 if "." in fileName:
     words = fileName.split('.')
+    print(words)
     fileType = words[-1].lower().strip()
     # [-1] = last word in array
 
