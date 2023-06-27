@@ -9,28 +9,34 @@ import java.util.ArrayList;
 */
 public class Main {
     public static void main(String[] args) {
+        // Create two instances of the Student class
         Student student1 = new Student("Roberta Petrus", 12);
         Student student2 = new Student("Loyd Blair", 11);
 
+        // Print initial details of the students
         student1.printStudentDetails();
         student2.printStudentDetails();
 
+        // Add courses to student1
         student1.addCourse("Math");
         student1.addCourse("Science");
         student1.addCourse("English");
         System.out.println("\n" + student1.getName() + " after adding courses Math, Science, and English:");
         student1.printStudentDetails();
 
+        // Add courses to student2
         student2.addCourse("Chemistry");
         student2.addCourse("History");
         System.out.println("\n" + student2.getName() + " after adding courses Chemistry and History:");
         student2.printStudentDetails();
 
 
+        // Remove a course from student1
         System.out.println("\n" + student1.getName() + " removing course Science:");
         student1.removeCourse("Science");
         student1.printStudentDetails();
 
+        // Remove a course from student2
         System.out.println("\n" + student2.getName() + " after removing course History:");
         student2.removeCourse("History");
         student2.printStudentDetails();
@@ -38,6 +44,7 @@ public class Main {
     }
 }
 
+// Student class
 class Student {
     private String name;
     private int grade;
@@ -51,7 +58,6 @@ class Student {
     }
 
     // Getters and setters for the attributes of the Student class
-
 
     public String getName() {
         return name;
@@ -94,5 +100,3 @@ class Student {
         System.out.println("Courses: " + courses);
     }
 }
-
-
