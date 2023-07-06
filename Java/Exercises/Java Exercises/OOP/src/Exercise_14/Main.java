@@ -21,6 +21,11 @@ public class Main {
         school.addClass("Science");
         school.addClass("English");
 
+        // Printing students, teachers, and classes
+        System.out.println("Students: " + school.getStudents());
+        System.out.println("Teachers: " + school.getTeachers());
+        System.out.println("Classes: " + school.getClasses());
+
         // Removing a student
         school.removeStudent("John");
 
@@ -29,6 +34,11 @@ public class Main {
 
         // Removing a class
         school.removeClass("Science");
+
+        // Printing students, teachers, and classes
+        System.out.println("Students: " + school.getStudents());
+        System.out.println("Teachers: " + school.getTeachers());
+        System.out.println("Classes: " + school.getClasses());
     }
 }
 
@@ -77,5 +87,17 @@ class School {
         } else {
             System.out.println("Class not found: " + className);
         }
+    }
+
+    public ArrayList<String> getStudents() {
+        return students;
+    }
+
+    public ArrayList<String> getTeachers() {
+        return teachers;
+    }
+
+    public ArrayList<String> getClasses() {
+        return classes;
     }
 }
