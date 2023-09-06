@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/ArrayList/ArrayList.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/BasicPart2/BasicPart2.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/BasicPart2/BasicPart2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/Collection.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Collection/Collection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/Exercises.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/Exercises/Java Exercises/OOP/OOP.iml" filepath="$PROJECT_DIR$/Java/Exercises/Java Exercises/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/Exercises/Java Exercises/Collection/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/Code/Exercises/Java Exercises/Collection/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/Exercises/Java Exercises/BasicPart2/BasicPart2.iml" filepath="$PROJECT_DIR$/Code/Exercises/Java Exercises/BasicPart2/BasicPart2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/COMP 251/COMP 251.iml" filepath="$PROJECT_DIR$/COMP 251/COMP 251.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/Exercises/Java Exercises/Collection/Collection.iml" filepath="$PROJECT_DIR$/Code/Exercises/Java Exercises/Collection/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/Exercises/Java Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Code/Exercises/Java Exercises/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/Exercises/Java Exercises/OOP/OOP.iml" filepath="$PROJECT_DIR$/Code/Exercises/Java Exercises/OOP/OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Public.iml" filepath="$PROJECT_DIR$/.idea/Public.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Java/code-wars/code-wars.iml" filepath="$PROJECT_DIR$/Java/code-wars/code-wars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/code-wars/code-wars.iml" filepath="$PROJECT_DIR$/Code/code-wars/code-wars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/COMP 251/lecture1/lecture1.iml" filepath="$PROJECT_DIR$/COMP 251/lecture1/lecture1.iml" />
     </modules>
   </component>
 </project>
